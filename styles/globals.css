@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    @apply scrollbar-hide
+  }
+}
+
+@layer components{
+  .mainBtn {
+      @apply
+        hover:border-ycLblue
+        hover:text-ycLblue 
+        active:scale-125 
+        transition-all 
+        duration-300 
+        ease-in-out 
+        w-24 
+        cursor-pointer
+        px-2 
+        py-1 
+        rounded-lg 
+        border-2  
+        text-ycDblue 
+        border-ycDblue
+    }
+    .lgTitle{
+      @apply text-5xl font-bold
+    }
+    .shopBtn{
+      @apply py-2 px-3 border-2 w-36 border-black text-lg rounded-lg cursor-pointer
+    }
+
+}
