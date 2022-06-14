@@ -1,4 +1,4 @@
-# Eccomerce Store
+# E-commerce Store
 Technologies Used: Next.Js, Sanity, Stripe
 
 This site is a full stack eccomerce site that allows users to sign in, add to bag and checkout. Owners can manage content through sanity and can view incomming orders on the orders page. 
